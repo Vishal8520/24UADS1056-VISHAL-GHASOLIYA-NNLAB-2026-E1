@@ -1,0 +1,8 @@
+Visualize the Perceptron Learning Algorithm with step-by-step training details. 
+Requirements: 
+1. Implementation: - Use NumPy and Matplotlib - Initialize all weights to zero (including bias) - Train on NAND and XOR gate datasets 
+2. Training Output (Each Epoch): 
+Print a table showing for every sample: - Input values - Target output - Predicted output   - Error - Updated weights 
+3. Visualization: - Plot decision boundary after “each epoch” - Show correctly classified points (one color/style) - Show misclassified points (different color/style) - Add “2-second delay” between epoch updates - Continue until convergence or max epochs 
+4. Final Plot: - Error vs. Epoch graph after training completes 
+Deliverables: - Python code with zero-weight initialization - Animated training visualization with 2s delays - Epoch-by-epoch console output tables - Error convergence plot 
